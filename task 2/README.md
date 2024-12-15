@@ -37,7 +37,7 @@ git clone https://github.com/beingcvdosa/tasks.git
 Install dependencies
 Navigate to the backend folder (if separate):
 
-Copy code
+
 
 cd backend
 npm install
@@ -46,13 +46,13 @@ Configure MySQL Database
 Create a database in MySQL:
 sql
 
-Copy code
+
 
 CREATE DATABASE notes_db;
 Create a table to store the notes:
 sql
 
-Copy code
+
 
 USE notes_db;
 
@@ -65,7 +65,7 @@ CREATE TABLE notes (
 Update the backend/server.js file with your MySQL credentials (if different from default):
 javascript
 
-Copy code
+
 
 const db = mysql.createConnection({
     host: 'localhost',
@@ -78,7 +78,7 @@ Start the Backend
 Run the Express server:
 
 
-Copy code
+
 
 npm start
 The backend will be running at http://localhost:5000.
@@ -87,7 +87,7 @@ The backend will be running at http://localhost:5000.
 Navigate to the frontend folder (if separate):
 
 
-Copy code
+
 
 cd frontend
 npm install
@@ -98,7 +98,7 @@ Start the Frontend
 Run the React app:
 
 
-Copy code
+
 
 npm start
 The frontend will be running at http://localhost:3000.
