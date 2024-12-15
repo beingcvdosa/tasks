@@ -35,7 +35,7 @@ Start the server:
 
 
 Copy code
-npm start
+node server.js
 The server will be running at http://localhost:3000.
 
 ### 4. Use the Application
