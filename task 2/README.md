@@ -38,17 +38,22 @@ Install dependencies
 Navigate to the backend folder (if separate):
 
 Copy code
+
 cd backend
 npm install
 
 Configure MySQL Database
 Create a database in MySQL:
 sql
+
 Copy code
+
 CREATE DATABASE notes_db;
 Create a table to store the notes:
 sql
+
 Copy code
+
 USE notes_db;
 
 CREATE TABLE notes (
@@ -56,20 +61,25 @@ CREATE TABLE notes (
     content TEXT NOT NULL,
     timestamp DATETIME NOT NULL
 );
+
 Update the backend/server.js file with your MySQL credentials (if different from default):
 javascript
+
 Copy code
+
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: 'yourpassword', // Replace with your MySQL password
     database: 'notes_db',
 });
+
 Start the Backend
 Run the Express server:
 
 
 Copy code
+
 npm start
 The backend will be running at http://localhost:5000.
 
@@ -78,6 +88,7 @@ Navigate to the frontend folder (if separate):
 
 
 Copy code
+
 cd frontend
 npm install
 Configure the API URL
@@ -88,6 +99,7 @@ Run the React app:
 
 
 Copy code
+
 npm start
 The frontend will be running at http://localhost:3000.
 
