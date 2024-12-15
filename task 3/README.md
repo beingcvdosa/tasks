@@ -27,15 +27,19 @@ Clone the repository to your local machine:
 
 git clone https://github.com/beingcvdosa/tasks.git
 ### 2. Install Dependencies
+
 Navigate to the project directory and install the required dependencies:
+
 cd phonenumber
+
 npm install
+
 ### 3. Run the Application
+
 Start the server:
 
-
-Copy code
 node server.js
+
 The server will be running at http://localhost:3000.
 
 ### 4. Use the Application
