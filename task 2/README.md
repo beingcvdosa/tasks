@@ -31,7 +31,7 @@ Follow the steps below to run both the frontend and backend locally.
 
 Clone the repository to your local machine:
 
-git clone https://github.com/beingcvdosa/assignment.git
+git clone https://github.com/beingcvdosa/tasks.git
 
 ### 2. Set up the Backend (Express & MySQL)
 Install dependencies

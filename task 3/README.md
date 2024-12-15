@@ -25,7 +25,7 @@ Follow these steps to run the project locally:
 Clone the repository to your local machine:
 
 
-git clone https://github.com/beingcvdosa/assignment.git
+git clone https://github.com/beingcvdosa/tasks.git
 ### 2. Install Dependencies
 Navigate to the project directory and install the required dependencies:
 cd phonenumber

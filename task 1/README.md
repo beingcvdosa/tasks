@@ -25,7 +25,7 @@ Follow these steps to run the app locally:
 
 Clone the repository to your local machine:
 
-git clone https://github.com/beingcvdosa/assignment.git
+git clone https://github.com/beingcvdosa/tasks.git
 
 ### 2. Open the project
 The application is a simple HTML file with embedded React code, so there is no need to install anything.
